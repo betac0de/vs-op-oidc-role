@@ -1,0 +1,12 @@
+# AWS Configuration
+aws_region = "us-east-1"
+
+# GitHub Actions OIDC Configuration
+github_org               = "your-github-org"
+github_repo              = "your-repo-name"
+github_actions_role_name = "GitHubActionsOIDCRole"
+enable_github_oidc       = true
+
+# SSO Configuration
+sso_role_name   = "SSOAdministratorRole"
+enable_sso_role = true
